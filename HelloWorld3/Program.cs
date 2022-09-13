@@ -10,13 +10,9 @@ namespace HelloWorld3
     {
         static void Main(string[] args)
         {
-            int looooop;
-            int hah = 0;
             for (int looop = 0; looop < 1000000; looop++)
             {
-
-                Console.WriteLine("Hello World! x" + (looop - 1000));
-
+                Console.WriteLine("Hello World! x" + looop);
             }
             
         }
